@@ -702,59 +702,314 @@
 
 ### 44. Keywords and Expressions
 
--
+- [Java Language Keywords](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html)
+
+- [List of Java keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords)
 
 ### 45. Statements, Whitespace and Indentation (Code Organization)
 
--
+-       // a mile is equal to 1.609344 kilometres
+        double kilometres = (100 * 1.609344);
+        int highScore = 50;
+        if (highScore == 50) {
+            System.out.println("This is an expression");
+        }
+
+        // In the following code that I will type below, write down what parts of the code are expressions
+        int score = 100;
+        if (score > 99) {
+            System.out.println("You got the high score!");
+            score = 0;
+        }
 
 ### 46. Code Blocks And The If Then Else Control Statements
 
--
+-       int myVariable = 50;
+        if (myVariable == 50) {
+            System.out.println("Printed");
+        }
+
+        myVariable++;
+        myVariable--;
+        System.out.println("This is a test");
+
+        System.out.println("This is" + " another" + " still more.");
+
+        int anotherVariable = 50;
+        myVariable--;
+        System.out.println("This is another one");
+
+- cannot access variables within a code block outside that code block. Idea of Scope. Can access created variables created prior to a code block however.
+
+-       boolean secondGameOver = true;
+        int secondScore = 10000;
+        int secondLevelCompleted = 8;
+        int secondbonus = 200;
+
+        if (secondGameOver) {
+            int secondFinalScore = secondScore + (secondLevelCompleted * secondbonus);
+            System.out.println("secondFinalScore = " + secondFinalScore);
+        }
+
+-       boolean gameOver = true;
+        int score = 1000;
+        int levelCompleted = 5;
+        int bonus = 100;
+
+        if (score > 1000) {
+            System.out.println("Your score was less than 5000");
+        } else if (score < 1000) {
+            System.out.println("Your score was less than 1000");
+        } else {
+            System.out.println("Got here");
+        }
 
 ### 47. if then else Recap
 
--
+- The **if** statement identifies which statement or code block to run based on the value of an expression. In other words based on a specific condition.
+
+- Inside the code block defined by curly braces
+
+  - {and} we can have one or multiple statements
+
+- We can use the **else** statement after the **if**. In that case when the condition is false the else block will be executed.
+
+- We can also add **else if** to test multiple conditions.
+
+- The following is the basic structure of the **if** then **else** statement
+
+  -       if(condtion) {
+              // if statment (block)
+          } else {
+              // else statement (block)
+          }
+  - semicolon should not be included on the same line as the **if** or it can create unwanted behavior in our code
+
+- 1. Test expression **score >= 5000**, in this case the expression result is **true**
+
+- 2. Execute block, in this case it will print message "Your score was >= 5000".
+
+- 3. The code will then jump to the first line after the last curly brace and continue with the rest of the program.
+
+-       int score = 6000;
+
+        if (score >= 5000) {
+            System.out.println("Your score was >= to 5000");
+        } else if (score < 1000 && score >= 500) {
+            System.out.println("Your score was < 1000 but >= to 500");
+        } else {
+            System.out.println("Your score was < 500");
+        }
 
 ### 48. Methods In Java
 
--
+-       boolean gameOver = true;
+        int score = 800;
+        int levelCompleted = 5;
+        int bonus = 100;
+
+        if (gameOver) {
+            int finalScore = score + (levelCompleted * bonus);
+            finalScore +=1000;
+            System.out.println("finalScore = " + finalScore);
+        }
+
+        score = 10000;
+        levelCompleted = 8;
+        bonus = 200;
+
+        if (gameOver) {
+            int finalScore = score + (levelCompleted * bonus);
+            System.out.println("finalScore = " + finalScore);
+        }
+
+-        public static void main(String[] args) {
+
+            boolean gameOver = false;
+            int score = 800;
+            int levelCompleted = 5;
+            int bonus = 100;
+            calculateScore(gameOver, score, levelCompleted, bonus);
+
+            score = 10000;
+            levelCompleted = 8;
+            bonus = 200;
+            calculateScore(gameOver, score, levelCompleted, bonus);
+        }
+
+        public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+
+            if (gameOver) {
+                int finalScore = score + (levelCompleted * bonus);
+                finalScore +=2000;
+                System.out.println("finalScore = " + finalScore);
+                return finalScore;
+            }
+            return -1;
+        }
 
 ### 49. More on Mehtods And A Challenge
 
--
+-         /*
+         Create a method called displayHighScorePosition !void method doesn't return data! procedure!
+         it should receive a players name as a parameter, and a 2nd parameter as a position in the high score table
+         You should display the players name along with a message like " managed to get into position " and the
+         position they got and a further message " on the high score table".
+
+         Create a 2nd method called calculateHighScorePosition !method referred to as a function!
+         it should be sent one argument only, the player score
+         it should return an int
+         the return data should be
+         1 if the score is >1000
+         2 if the score is >500 and < 1000
+         3 if the score is >100 and < 500
+         4 in all other cases
+         call both methods and display the results of the following
+         a score of 1500, 900, 400, and 50
+        */
+
+        int highScorePosition = calculatedHighScorePosition(1500);
+        displayHighScorePosition("Tim", highScorePosition);
+
+        highScorePosition = calculatedHighScorePosition(900);
+        displayHighScorePosition("Bob", highScorePosition);
+
+        highScorePosition = calculatedHighScorePosition(400);
+        displayHighScorePosition("Percy", highScorePosition);
+
+        highScorePosition = calculatedHighScorePosition(50);
+        displayHighScorePosition("Gilbert", highScorePosition);
+
+        }
+
+-       public static void displayHighScorePosition(String playerName, int highScorePosition) {
+            System.out.println(playerName + " managed to get into position "
+                + highScorePosition + " on the high score table");
+        }
+
+-       public static int calculatedHighScorePosition(int playerScore) {
+            if (playerScore >= 1000) {
+                return 1;
+            } else if (playerScore >= 500 && playerScore < 1000) {
+                return 2;
+            } else if (playerScore >= 100 && playerScore < 500) {
+                return 3;
+            } else {
+                return 4;
+            }
+        }
 
 ### 50. Method Challenge - Final Code Changes
 
--
+-       int position = 4; // assuming position 4 will be returned
+
+        if (playerScore >= 1000) {
+            position = 1;
+        } else if (playerScore >= 500) {
+            position = 2;
+        } else if (playerScore >= 100) {
+            position = 3;
+        }
+        return position;
 
 ### 51. DiffMerge Tool Introduction
 
--
+- DiffMerge is a program that will help you to visiually compare and merge files on any operating system.
+
+- It can be very helpful with programming as well.
+
+- Some other tools like code repositories use similar merge operations, so this will also help you in the future when you start working with code repositories.
+
+- When you code along with the videos in the course it is easy to make a typo, and get stuck, and this is where DiffMerge will help you!
+
+- Every lesson has the code attached to it that I typed in the video and you can download a zip file with all that code.
+
+- I will explain and show you later how to download and use that code. It's pretty easy.
+
+- By downloading code from the video and comparing it with yours you will be able to easily find any errors/typos made using DiffMerge.
+
+- With DiffMerge you can compare a single file or even the whole folder and visually see the differences side by side.
+
+- In the next video we will install the DiffMerge program and I will then show you how to use it to get the maximum benefit from it during this course.
 
 ### 52. Install DiffMerge
 
--
+- http://sourcegear.com/diffmerge/downloads.php
 
 ### 53. Using DiffMerge
 
--
+- Let's see how to use DiffMerge with code from the course.
+
+- Specifically, you will learn how to compare code using DiffMerge and how to find common errors like typos.
+
+- Can see what happened over 30 minutes of coding in future uses.
+
+-       always filter *.class
+        then .idea in sub-folder filters
+
+- checking by folder can be a good habit over just by file to see what changes may have been made anywhere while working a large project.
 
 ### 54. Coding Exercises
 
--
+- Coding exercises are a feature added by Udemy to allow instructors to add exercises that students can complete to help reinforce concepts that have been taught. The cool thing is that you can click a button and have your solution checked immediately!
+
+- In other words, I will give you a coding exercise to complete, and you can type it interactively into the screen and click a button to see if your solution is correct.
+
+- This is different to the challenges you have seen so far, when you see me give you the challenge and then I go through the solution in a video.
+
+- Coding exercises give you the exercise and you do them withou seeing a solution in a video.
+
+- There are plenty of upcoming challenges in the course, and coding exercises are meant to complement those challenges - So this is new material I have added.
+
+- Coding Exercises can be a bit tricky to understand initally, so in this video, I am going to show you how to go through a sample coding exercise so that when you get to the first coding exercise in the course (in the next video) you will know how to go about it.
+
+- Let's go over to Udemy's website and open up a coding exercise and get started.
+
+-       psvm needed which is main method to check / test if our method works!!!
 
 ### 55. Coding Exercises Example Part 1
 
--
+-       public class SpeedConverter {
+
+            public static long toMilesPerHour(double kilometersPerHour) {
+
+                if (kilometersPerHour < 0) {
+                return -1;
+            }
+                return Math.round(kilometersPerHour / 1.609);
+            }
+        }
 
 ### 56. Coding Exercies Example Part 2
 
--
+- Returning a value and printing text in the console is not the same.
 
 ### 57. Coding Exercies Example Part 3
 
--
+-       public class SpeedConverter {
+
+            public static long toMilesPerHour(double kilometersPerHour) {
+
+                if (kilometersPerHour < 0) {
+            return -1;
+                }
+
+                return Math.round(kilometersPerHour / 1.609);
+            }
+
+            public static void printConversion(double kilometersPerHour) {
+
+                if (kilometersPerHour < 0) {
+                    System.out.println("Invalid Value");
+                } else {
+                    long milesPerHour = toMilesPerHour(kilometersPerHour);
+                    System.out.println(kilometersPerHour +
+                            " km/h = " + milesPerHour +
+                            " mi/h");
+
+                }
+            }
+        }
 
 Coding Exercise 1: Speed Converter
 Coding Exercise 2: MegaBytes Converter
@@ -766,15 +1021,114 @@ Coding Exercise 7: Teen Number Checker
 
 ### 58. Method Overloading
 
--
+- same method name but with different parameters
+
+- Can't just change the return type from `int` to `void`, for example. You actually need to change the number of parameters the method has or else the method signature doesn't change effectively enough to be considered a unique method.
+
+- happens to be very common in Java
 
 ### 59. Method Overloading Recap
 
--
+- **Method overloading** is a feature that allows us to have more than one method with the **same name**, so long as we use **different parameters**.
+
+- It is the ability to create multiple methods of the same name with different implementations.
+
+- Calls to an overloaded method will run a specific implementation of that method.
+
+- In the example from the previous video we had **calculateScore** method with 0, 1, and 2 parameters.
+
+- As an example, let's say you have to create a method which can do
+
+  - The sum of two numbers.
+  - The sum of three numbers.
+  - And the sum of four numbers.
+  - Each method would have parameters passed to it with the numbers to sum.
+
+- Ending up with the following methods is not good practice and it is not actually method overloading.
+
+- Never ever write code like below, it is bad practice.
+
+-       public static int sumTwoNumbers(int a, int b) {
+            return a + b;
+        }
+-       public static int sumThreeNumbers(int a, int b, int c) {
+            return a + b + c;
+        }
+-       public static int sumTwoNumbers(int a, int b, int c , int d) {
+            return a + b + c + d;
+        }
+
+- Above 3 different method names to remember to do something very similar. 20 would be even harder to remember.
+
+- With method overloading we end up with 3 methods but all sharing the same method name. Easier to remember!
+
+-       public static int sum(int a, int b) {
+            return a + b;
+        }
+-       public static int sum(int a, int b, int c) {
+            return a + b + c;
+        }
+-       public static int sum(int a, int b, int c , int d) {
+            return a + b + c + d;
+        }
+
+- The above has the same method name, easier to remember. This is an example of how methods should be written using method overloading.
+
+- Very common used in many other languages as well.
+
+- The println method is a great example of method overloading in the Java language.
+
+- There are actually 10 methods with the name **println**.
+
+- We can print an integer, double, string and so on...
+
+-       public static void main (String[] args) {
+            System.out.println("Hello!");
+            System.out.println(5);
+            System.out.println(10.75);
+        }
+
+- It improves code readablility and re-usability.
+
+- It is easier to remember one method name instead of remembering multiple names.
+
+- Acheives consistency in naming. One name for methods that are commonly used for example println
+
+- Overloaded methods give programmers the flexibility to call a similar method with different tyeps of data.
 
 ### 60. Seconds and Minutes Challenge
 
--
+- Create a method called **getDurationString** with two parameters, first paramter **minutes** and 2nd parameter **seconds**.
+
+- You should validate that the **first paramter minutes is >= 0**.
+
+- You should validate that the **2nd paramter seconds is >= 0 and <=59**.
+
+- The method should \*\*return "Invalid value" in the method if either of the above are not true.
+
+- If the **parameters are valid** then calculate how many hours minutes and seconds equal the minutes and seconds passed to this method and \*\*return that value as string in format "XXh YYm ZZs" where XX represents a number of hours, YY the minutes, and ZZ the seconds.
+
+- Create a **2nd method of the same name but with only one parameter seconds.**
+
+- **Validate that it is >= 0, and return "Invalid value" if it is not true.**
+
+- If it is valid, then calculate how many minutes are in the seconds value and then call the other overlaoded method passing the correct minutes and seconds calculated so that it can calculate correctly.
+
+- Call both methods to print values to the console.
+
+- Tips:
+
+  - Use int or long for your number data typey is probably a good idea.
+
+  - 1 minute = 60 seconds and 1 hour = 60 minutes or 3600 seconds.
+
+  - Methods should be static as we have used previously.
+
+- Bonus:
+
+  - For the input 61 minutes output should be 01 h 01m 00s, but it is ok if it is 1h 1m 0s (Tip: use if-else)
+
+  - Create a new console project and call it SecondsAndMinutesChallenge
 
 ### 61. Bonus Challenge Solution
 
