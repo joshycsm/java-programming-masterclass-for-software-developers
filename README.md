@@ -1104,7 +1104,7 @@ Coding Exercise 7: Teen Number Checker
 
 - You should validate that the **2nd paramter seconds is >= 0 and <=59**.
 
-- The method should \*\*return "Invalid value" in the method if either of the above are not true.
+- The method should **return "Invalid value" in the method if either of the above are not true**.
 
 - If the **parameters are valid** then calculate how many hours minutes and seconds equal the minutes and seconds passed to this method and \*\*return that value as string in format "XXh YYm ZZs" where XX represents a number of hours, YY the minutes, and ZZ the seconds.
 
@@ -1112,13 +1112,13 @@ Coding Exercise 7: Teen Number Checker
 
 - **Validate that it is >= 0, and return "Invalid value" if it is not true.**
 
-- If it is valid, then calculate how many minutes are in the seconds value and then call the other overlaoded method passing the correct minutes and seconds calculated so that it can calculate correctly.
+- If it is valid, then calculate how many minutes are in the seconds value and then call the other overloaded method passing the correct minutes and seconds calculated so that it can calculate correctly.
 
 - Call both methods to print values to the console.
 
 - Tips:
 
-  - Use int or long for your number data typey is probably a good idea.
+  - Use int or long for your number data type is probably a good idea.
 
   - 1 minute = 60 seconds and 1 hour = 60 minutes or 3600 seconds.
 
@@ -1132,7 +1132,7 @@ Coding Exercise 7: Teen Number Checker
 
 ### 61. Bonus Challenge Solution
 
--
+- a constant is like a variable, but a variable that we can't reassign once a value is assigned. A Constant variable is created using the `final` keyword.
 
 Coding Exercise 8: Area Calculator
 Coding Exercise 9: Minutes to Years and Days Calculator
@@ -1143,155 +1143,203 @@ Coding Exercise 11: Playing Cat
 
 ### 62. Introduction
 
--
+- Control Flow Statements
 
-### 6
+  - You're going to be learning that in this section. We're going to be dealing with the **switch statement**, the **for statement**, the **while statement**, and the **do-while statement**.
 
--
+  - These are the four key control flow statements that you need to understand to get the most out of Java.
 
-### 6
+  - So, let's make a start.
 
--
-
-### 6
+### 63. The switch statement (+Challenge Exercise)
 
 -
 
-### 6
+### 64. Day of the Week Challenge
 
 -
 
-### 6
+Coding Exercise 12: Number In Word
+Coding Exercise 13: Number Of Days In Month
+
+### 65. The for Statement (+Challenge Exercise)
 
 -
 
-### 6
+### 66. For Loop Recap
 
 -
 
-### 6
+### 67. Sum 3 and 5 Challenge
 
 -
 
-### 7
+Coding Exercise 14: Sum Odd
+
+### 68. The while and do while statements(+Challenge Exercise)
 
 -
 
-### 7
+### 69. While and Do While Recap
 
 -
 
-### 7
+### 70. Digit Sum Challenge
 
 -
 
-### 7
+Coding Exercise 15: Number Palindrome
+Coding Exercise 16: First And Last Digit Sum
+Coding Exercise 17: Even Digit Sum
+Coding Exercise 18: Shared Digit
+Coding Exercise 19: Last Digit Checker
+Coding Exercise 20: Greatest Common Divisor
+Coding Exercise 21: All Factors
+Coding Exercise 22: Pefect Number
+Coding Exercise 23: Number To Words
+
+### 71. Parsing Values from a String
 
 -
 
-### 7
+Coding Exercise 24: Flour Pack Problem
+Coding Exercise 25: Largest Prime
+Coding Exercise 26: Diagonal Star
+
+### 72. Reading User Input
 
 -
 
-### 7
+### 73. Problems and Solutions
 
 -
+
+### 74. Reading User Input Challenge
+
+-
+
+### 75. Min and Max Challenge
+
+-
+
+Coding Exercise 27: Input Calculator
+Coding Exercise 28: Paint Job
 
 ## Section 6: OOP Part 1 - Classes, Constructors and Inheritance 2hr 36min
 
-### 7
+### 76. Introduction
 
 -
 
-### 7
+### 77. Classes Part 1
 
 -
 
-### 7
+### 78. Classes Part 2
 
 -
 
-### 7
+Coding Exercise 29: Sum Calculator
+Coding Exercise 30: Person
+
+### 79. Constructors - Part 1 (+Challenge Exercise)
 
 -
 
-### 8
+### 80. Constructors - Part 2 (+Challenge Exercise)
 
 -
 
-### 8
+Coding Exercise 31: Wall Area
+Coding Exercise 32: Point
+Coding Exercise 33: Carpet Cost Calculator
+Coding Exercise 34: Complex Operations
+
+### 81. Inheritance - Part 1
 
 -
 
-### 8
+### 82. Inheritance - Part 2
 
 -
 
-### 8
+### 83. Reference vs Object vs Instance vs Class
 
 -
 
-### 8
+### 84. this vs super
 
 -
 
-### 8
+### 85. Method Overloading vs Overriding Recap
 
 -
 
-### 8
+### 86. Static vs Instance Methods
 
 -
 
-### 8
+### 87. Static vs Instance Variables
 
 -
 
-### 8
+### 88. Inheritance challenge Part 1 (+Challenge Exercise)
 
 -
 
-### 8
+### 89. Inheritance challenge Part 2
 
 -
+
+Coding Exercise 35: Cylinder
+
+Coding Exercise 36: Pool Area
 
 ## Section 7: OOP Part 2 - Composition, Encapsulation, and Polymorphism 2hr 20min
 
-### 9
+### 90. Introduction
 
 -
 
-### 9
+### 91. Composition
 
 -
 
-### 9
+### 92. Composition Part 2 (+Challenge Exercise)
 
 -
 
-### 9
+Coding Exercise 37: Composition
+
+### 93. Encapsulation
 
 -
 
-### 9
+### 94. Encapsulation (+Challenge Exercise)
 
 -
 
-### 9
+Coding Exercise 38: Encapsulation
+
+### 95. Polymorphism
 
 -
 
-### 9
+### 96. Polymorphism (+Challenge Exercise)
 
 -
 
-### 9
+Coding Exercise 39: Polymorphism
+
+### 97. OOP Master Challenge Exercise
 
 -
 
-### 9
+### 98. OOP Challenge - Solution
 
 -
+
+Coding Exercise 40: Bill's Burgers
 
 ## Section 8: Arrays, Java inbuilt Lists, Autoboxing and Unboxing 5hr 49min
 
@@ -1299,331 +1347,355 @@ Coding Exercise 11: Playing Cat
 
 -
 
-### 10
+### 100. Arrays (Challenge Exercise)
 
 -
 
-### 10
+Coding Exercise 41: Sorted Array
+
+### 101. Arrays Recap
 
 -
 
-### 10
+### 102. References vs Value Types
 
 -
 
-### 10
+### 103. Minimum Element Challenge
 
 -
 
-### 10
+Coding Exercise 42: Minimum Element
+
+### 104. Reverse Array Challenge
 
 -
 
-### 10
+Coding Exercise 43: Reverse Array
+
+### 105. List and ArrayList Part 1
 
 -
 
-### 10
+### 106. ArrayList Part 2
 
 -
 
-### 10
+### 107. ArrayList Part 3
 
 -
 
-### 10
+### 108. ArrayList Challenge Part 1
 
 -
 
-### 10
+### 109. ArrayList Challenge Part 2
 
 -
 
-### 11
+### 110. ArrayList Challenge Part 3
 
 -
 
-### 11
+### 111. Bug Fix for ArrayList Challenge
 
 -
 
-### 11
+Coding Exercise 44: Mobile Phone
+
+### 112. Autoboxing and Unboxing
 
 -
 
-### 11
+### 113. Autoboxing and Unboxing (Challenge Exercise) - Part 1
 
 -
 
-### 11
+### 114. Autoboxing and Unboxing (Challenge Exercise) - Part 2
 
 -
 
-### 11
+### 115. Autoboxing and Unboxing (Challenge Exercise) - Part 3
 
 -
 
-### 11
+Coding Exercise 45: Banking
+
+### 116. LinkedList Part 1
 
 -
 
-### 11
+### 117. LinkedList Part 2
 
 -
 
-### 11
+### 118. LinkedList Part 3
 
 -
 
-### 11
+### 119. LinkedList Challenge Part 1
 
 -
 
-### 12
+### 120. Bug Fix for "Track 1" Error
 
 -
 
-### 12
+### 121. LinkedList Challenge Part 2
 
 -
 
-### 12
+### 122. LinkedList Challenge Part 3 (Final video)
 
 -
+
+Coding Exercise 46: Playlist
 
 ## Section 9: Inner and Abstract Classes & Interfaces 3hr 3min
 
-### 12
+### 123. Interfaces
 
 -
 
-### 12
+### 124. Interfaces Part 2
 
 -
 
-### 12
+### 125. Interfaces Challenge Part 1
 
 -
 
-### 12
+### 126. Interfaces Challenge Part 2
 
 -
 
-### 12
+Coding Exercise 47: Interface
+
+### 127. Inner Classes Part 1
 
 -
 
-### 12
+### 128. Inner Classes Part 2
 
 -
 
-### 12
+### 129. Inner Classes Challenge
 
 -
 
-### 13
+Coding Exercise 48: Playlist - Inner Class
+
+### 130. Abstract Classes Part 1
 
 -
 
-### 13
+### 131. Abstract Classes Part 2
 
 -
 
-### 13
+### 132. Interface vs Abstract Class
 
 -
 
-### 13
+### 133. Abstract Class Challenge Part 1
 
 -
 
-### 13
+### 134. Abstract Class Challenge Part 2
 
 -
 
-### 13
+### 135. Abstract Class Challenge Part 3 (includes recursion)
 
 -
+
+Coding Exercise 49: Abstract Class
 
 ## Section 10: Java Generics 1hr 5min
 
-### 13
+### 136. Generics Introduction
 
 -
 
-### 13
+### 137. Our Generics Class
 
 -
 
-### 13
+### 138. Our Generics Class Part 2
 
 -
 
-### 13
+### 139. Our Generics Class Part 3
 
 -
 
-### 14
+### 140. Generics Challenge
 
 -
 
 ## Section 11: Naming Conventions and Packages. static and final keywords 2hr 31min
 
-### 14
+### 141. Naming Conventions
 
 -
 
-### 14
+### 142. Packages
 
 -
 
-### 14
+### 143. Packages Part 2
 
 -
 
-### 14
+### 144. Packages Part 3
 
 -
 
-### 14
+### 145. Packages (Challenge Exercise)
 
 -
 
-### 14
+### 146. Scope
 
 -
 
-### 14
+### 147. Packages Part 2 and Visibility
 
 -
 
-### 14
+### 148. Scope + (Challenge Exercise)
 
 -
 
-### 14
+### 149. Access Modifiers
 
 -
 
-### 15
+### 150. The static statement
 
 -
 
-### 15
+### 151. The final statement
 
 -
 
-### 15
+### 152. Final Part 2 and Static Initializers
 
 -
 
 ## Section 12: Java Collections 6hr 36min
 
-### 15
+### 153. Collections Overview
 
 -
 
-### 15
+### 154. Binary Search
 
 -
 
-### 15
+### 155. Collections List Methods
 
 -
 
-### 15
+### 156. Comparable and Comparator
 
 -
 
-### 15
+### 157. Maps
 
 -
 
-### 15
+### 158. Map Continued And Adventure Game
 
 -
 
-### 15
+### 159. Adding Exits to the Adventure GAme
 
 -
 
-### 16
+### 160. Adventure Game Challenge
 
 -
 
-### 16
+Coding Exercise 50: Adventure Game
+
+### 161. Immutable Classes
 
 -
 
-### 16
+### 162. Immutable Class Challenge
 
 -
 
-### 16
+Coding Exercise 51: Immutable Class
+
+### 163. Sets and HashSet
 
 -
 
-### 16
+### 164. HashSet - equals() and hashCode()
 
 -
 
-### 16
+### 165. Finish off equals() and hashCode()
 
 -
 
-### 16
+### 166. Potential issue with equals() and sub-classing
 
 -
 
-### 16
+### 167. Sets - Symmetric & Asymmetric
 
 -
 
-### 16
+### 168. Finishing Off Sets
 
 -
 
-### 16
+### 169. Sets Challenge Part 1
 
 -
 
-### 17
+### 170. Sets Challenge Part 2
 
 -
 
-### 17
+### 171. Sets Challenge Part 3
 
 -
 
-### 17
+Coding Exercise 52: Sets
+
+### 172. Sorted Collections
 
 -
 
-### 17
+### 173. StockList class With Maps
 
 -
 
-### 17
+### 174. Add a Basket
 
 -
 
-### 17
+### 175. TreeMap and Unmodifiable Maps
 
 -
 
-### 17
+### 176. Challenge Part 1
 
 -
 
-### 17
+### 177. Challenge Part 2
 
 -
 
-### 17
+### 178. Challenge Part 3
 
 -
 
-### 17
+### 179. Challenge Part 4 (Final)
 
 -
 
@@ -1639,147 +1711,291 @@ Coding Exercise 11: Playing Cat
 
 -
 
+### 227. Stack Trace and Call Stacks
+
+-
+
+### 228. Catching and throwing Exceptions
+
+-
+
+### 229. Multi Catch Exceptions
+
+-
+
+### 230. Introduction to I/O
+
+-
+
+### 231. Writing content - FileWriter class and Finally block
+
+-
+
+### 232. Try with Resources
+
+-
+
+### 233. FileReader and Closeable
+
+-
+
+### 234. BufferedReader
+
+-
+
+### 235. Load Big Location and Exits Files
+
+-
+
+### 236. Challenge
+
+-
+
+### 237. Buffered Writer and Challenge
+
+-
+
+### 238. Byte Streams
+
+-
+
+### 239. Reading Binary Data and End of File Exceptions
+
+-
+
+### 240. Object Input Output Including Serialization
+
+-
+
+### 241. Finish Object I/O and RandomAccessFile class
+
+-
+
+### 242. Create Random Access File
+
+-
+
+### 243. Update Static Initializer Block With Random File Access
+
+-
+
+### 244. Update Adventure Game to Read Random access File
+
+-
+
+### 245. Java NIO
+
+-
+
+### 246. Writing Objects with Java NIO
+
+-
+
+### 247. Reading and Writing with Java NIO
+
+-
+
+### 248. Writing Binary Files with Java NIO
+
+-
+
+### 249. Reading Files NIO
+
+-
+
+### 250. Absolute and Relative Reads
+
+-
+
+### 251. Chained Put Methods
+
+-
+
+### 252. Writing Sequentially
+
+-
+
+### 253. FileChannel to Copy Files and Pipes with Threads
+
+-
+
+### 254. Filesystem
+
+-
+
+### 255. More on Paths
+
+-
+
+### 256. Exists and CopyFile
+
+-
+
+### 257. Move, Rename and Delete
+
+-
+
+### 258. File Attributes
+
+-
+
+### 259. Read Existing Directory Contents
+
+-
+
+### 260. Separators Temp Files and File Stores
+
+-
+
+### 261. Walk File Tree
+
+-
+
+### 262. Copy Entire Tree
+
+-
+
 ### 263. Mapping IO and NIO Methods
 
 -
 
 ## Section 15: Concurrency in Java 5hr 26min
 
-### 26
+### 264. Concurrency and Threads Introduction
 
 -
 
-### 26
+### 265. Threads
 
 -
 
-### 26
+### 266. Runnable and Thread
 
 -
 
-### 26
+### 267. Interrupt and Join
 
 -
 
-### 26
+### 268. Multiple Threads
 
 -
 
-### 26
+### 269. Thread Variables
 
 -
 
-### 27
+### 270. Synchronisation
 
 -
 
-### 27
+### 271. Producer and Consumer
 
 -
 
-### 27
+### 272. Deadlocks, wait, notify and notifyAll methods
 
 -
 
-### 27
+### 273. The Java Util Concurrent package
 
 -
 
-### 27
+### 274. Thread Interference
 
 -
 
-### 27
+### 275. Reentrant Lock and Unlock
 
 -
 
-### 27
+### 276. Using Try Finally with Threads
 
 -
 
-### 27
+### 277. Thread Pools
 
 -
 
-### 27
+### 278. ArrayBlockingQueue Class
 
 -
 
-### 27
+### 279. Deadlocks
 
 -
 
-### 28
+### 280. More on Deadlocks
 
 -
 
-### 28
+### 281. Thread Starvation
 
 -
 
-### 28
+### 282. Fair Locks and Live Locks
 
 -
 
-### 28
+### 283. Live Lock Example and Slipped Condtions
 
 -
 
-### 28
+### 284. Other Thread Issues
 
 -
 
-### 28
+### 285. JavaFX BAckground Tasks
 
 -
 
-### 28
+### 286. Data Binding
 
 -
 
-### 28
+### 287. Service
 
 -
 
-### 28
+### 288. Challenge 1 and 2
 
 -
 
-### 28
+### 289. Challenge 3, 4 and 5
 
 -
 
-### 29
+### 290. Challenge 6 and 7
 
 -
 
-### 29
+### 291. Challenge 8
 
 -
 
-### 29
+### 292. Challenge 9
 
 -
 
 ## Section 16 Lambda Expressions 3hr 11min
 
-### 29
+### 293. Lamda Expressions Introduction
 
 -
 
-### 29
+### 294. Lamda Expressions Continued
 
 -
 
-### 29
+### 295. Lamda Expressions Nested Blocks
 
 -
 
-### 29
+### 296. Scope and Functional Programming
 
 -
 
-### 29
+### 297.
 
 -
 
