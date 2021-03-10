@@ -1,12 +1,137 @@
 # java-programming-masterclass-for-software-developers
 
-## Section 1: Course Introduction 17min
+<table>
+<tr>
+<th id="table-of-contents"> Table of Contents </th>
+<th> Table of Contents (cont'd) </th>
+</tr>
+<tr>
+<td>
+
+[Section 1: Course Introduction](##section-1-course-introduction)
+
+[Section 2: Software Tools Setup](##section-2-software-tools-setup)
+
+[Section 3: First Steps](##section-3-First-Steps)
+
+[Section 4: Java Tutorial: Expressions, Statements,Code blocks, Methods and more](##section-4-Java-Tutorial-Expressions-Statements-code-blocks-methods-and-more)
+
+[Section 5: Control-Flow-Statements](##section-5-Control-Flow-Statements)
+
+[Section 6: OOP Part 1 - Classes, Constructors, and Inheritance](##section-6-OOP-Part-1---Classes-Constructors-and-Inheritance)
+
+[Section 7: OOP Part 2 - Composition, Encapuslation, and Polymorphism](##section-7-OOP-Part-2---Composition-Encapuslation-and-Polymorphism)
+
+[Section 8: Arrays Java inbuilt Lists Autoboxing and Unboxing](##section-8-Arrays-Java-inbuilt-Lists-Autoboxing-and-Unboxing)
+
+[Section 9: Inner and Abstract Classes & Interfaces](##section-9-Inner-and-Abstract-Classes-&-Interfaces)
+
+[Section 10: Java Generics](##section-10-Java-Generics)
+
+[Section 11: Naming-Conventions-and-Packages-static-and-final-keywords](##section-11-Naming-Conventions-and-Packages-static-and-final-keywords)
+
+[Section 12: Java Collections](##section-12-Java-Collections)
+
+[Section 13: JavaFX](##section-13-JavaFX)
+
+</td>
+<td>
+
+[Section 14: Basic Input & Outputincluding java.util](##section-14-Basic-Input-&-Output-including-java.util)
+
+[Section 15: Concurrency in Java](##section-15-Concurrency-in-Java)
+
+[Section 16: Lambda Expressions](##section-16-Lambda-Expressions)
+
+[Section 17: Regular Expressions](##section-17-Regular-Expressions)
+
+[Section 18: Debugging and Unit Testing](##section-18-Debugging-and-Unit-Testing)
+
+[Section 19: Databases](##section-19-Databases)
+
+[Section 20: Java Networking Programming](##section-20-Java-Networking-Programming)
+
+[Section 21: Java 9 Module System](##section-21-Java-9-Module-System)
+
+[Section 22: Migrating Java Projects to Java 9](##section-22-Migrating-Java-Projects-to-Java-9)
+
+[Section 23: Course Remaster in Progress](##section-23-Course-Remaster-in-Progress)
+
+[Section 24: Archived Videos](##section-24-Archived-Videos)
+
+[Section 25: Extra Information - Source code and other stuff](##section-25-Extra-Information---Source-code-and-other-stuff)
+
+</td>
+</tr>
+</table>
+
+<!-- ## Table of Contents:
+
+[Section 1: Course Introduction](##section-1-course-introduction)
+
+[Section 2: Software Tools Setup](##section-2-software-tools-setup)
+
+[Section 3: First Steps](##section-3-First-Steps)
+
+[Section 4: Java Tutorial: Expressions, Statements,Code blocks, Methods and more](##section-4-Java-Tutorial-Expressions-Statements-code-blocks-methods-and-more)
+
+[Section 5: Control-Flow-Statements](##section-5-Control-Flow-Statements)
+
+[Section 6: OOP Part 1 - Classes, Constructors, and Inheritance](##section-6-OOP-Part-1---Classes-Constructors-and-Inheritance)
+
+[Section 7: OOP Part 2 - Composition, Encapuslation, and Polymorphism](##section-7-OOP-Part-2---Composition-Encapuslation-and-Polymorphism)
+
+[Section 8: Arrays Java inbuilt Lists Autoboxing and Unboxing](##section-8-Arrays-Java-inbuilt-Lists-Autoboxing-and-Unboxing)
+
+[Section 9: Inner and Abstract Classes & Interfaces](##section-9-Inner-and-Abstract-Classes-&-Interfaces)
+
+[Section 10: Java Generics](##section-10-Java-Generics)
+
+[Section 11: Naming-Conventions-and-Packages-static-and-final-keywords](##section-11-Naming-Conventions-and-Packages-static-and-final-keywords)
+
+[Section 12: Java Collections](##section-12-Java-Collections)
+
+[Section 13: JavaFX](##section-13-JavaFX)
+
+[Section 14: Basic Input & Outputincluding java.util](##section-14-Basic-Input-&-Output-including-java.util)
+
+[Section 15: Concurrency in Java](##section-15-Concurrency-in-Java)
+
+[Section 16: Lambda Expressions](##section-16-Lambda-Expressions)
+
+[Section 17: Regular Expressions](##section-17-Regular-Expressions)
+
+[Section 18: Debugging and Unit Testing](##section-18-Debugging-and-Unit-Testing)
+
+[Section 19: Databases](##section-19-Databases)
+
+[Section 20: Java Networking Programming](##section-20-Java-Networking-Programming)
+
+[Section 21: Java 9 Module System](##section-21-Java-9-Module-System)
+
+[Section 22: Migrating Java Projects to Java 9](##section-22-Migrating-Java-Projects-to-Java-9)
+
+[Section 23: Course Remaster in Progress](##section-23-Course-Remaster-in-Progress)
+
+[Section 24: Archived Videos](##section-24-Archived-Videos)
+
+[Section 25: Extra Information - Source code and other stuff](##section-25-Extra-Information---Source-code-and-other-stuff) -->
+
+## Section 1: Course Introduction
+
+## 17min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 1. Introduction to the Course
 
 -
 
-## Section 2: Software Tools Setup 37min
+## Section 2: Software Tools Setup
+
+## 37min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 7. Biggest Tip to Succeed as a Java Programmer
 
@@ -44,7 +169,11 @@
 
 - Deselect imports, one-line methods, closures, generic constructor and method parameters, to show as much code as possible
 
-## Section 3: First Steps 2hr 47min
+## Section 3: First Steps
+
+## 2hr 47min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 19. Introduction
 
@@ -688,7 +817,11 @@
 - Old style is still 100% relevant!
 - Just trying to make new style content better.
 
-## Section 4: Java Tutorial: Expressions, Statements, Code blocks, Methods and more 3hr 23min
+## Section 4: Java Tutorial: Expressions, Statements, Code blocks, Methods and more
+
+## 3hr 23min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 43. Introduction
 
@@ -1139,7 +1272,11 @@ Coding Exercise 9: Minutes to Years and Days Calculator
 Coding Exercise 10: Equality Printer
 Coding Exercise 11: Playing Cat
 
-## Section 5: Control Flow Statements 2hr 57min
+## Section 5: Control Flow Statements
+
+## 2hr 57min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 62. Introduction
 
@@ -1225,7 +1362,11 @@ Coding Exercise 26: Diagonal Star
 Coding Exercise 27: Input Calculator
 Coding Exercise 28: Paint Job
 
-## Section 6: OOP Part 1 - Classes, Constructors and Inheritance 2hr 36min
+## Section 6: OOP Part 1 - Classes, Constructors and Inheritance
+
+## 2hr 36min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 76. Introduction
 
@@ -1295,7 +1436,11 @@ Coding Exercise 35: Cylinder
 
 Coding Exercise 36: Pool Area
 
-## Section 7: OOP Part 2 - Composition, Encapsulation, and Polymorphism 2hr 20min
+## Section 7: OOP Part 2 - Composition, Encapsulation, and Polymorphism
+
+## 2hr 20min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 90. Introduction
 
@@ -1341,7 +1486,11 @@ Coding Exercise 39: Polymorphism
 
 Coding Exercise 40: Bill's Burgers
 
-## Section 8: Arrays, Java inbuilt Lists, Autoboxing and Unboxing 5hr 49min
+## Section 8: Arrays, Java inbuilt Lists, Autoboxing and Unboxing
+
+## 5hr 49min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 99. Arrays
 
@@ -1451,7 +1600,11 @@ Coding Exercise 45: Banking
 
 Coding Exercise 46: Playlist
 
-## Section 9: Inner and Abstract Classes & Interfaces 3hr 3min
+## Section 9: Inner and Abstract Classes & Interfaces
+
+## 3hr 3min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 123. Interfaces
 
@@ -1511,7 +1664,11 @@ Coding Exercise 48: Playlist - Inner Class
 
 Coding Exercise 49: Abstract Class
 
-## Section 10: Java Generics 1hr 5min
+## Section 10: Java Generics
+
+## 1hr 5min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 136. Generics Introduction
 
@@ -1533,7 +1690,11 @@ Coding Exercise 49: Abstract Class
 
 -
 
-## Section 11: Naming Conventions and Packages. static and final keywords 2hr 31min
+## Section 11: Naming Conventions and Packages. static and final keywords
+
+## 2hr 31min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 141. Naming Conventions
 
@@ -1583,7 +1744,11 @@ Coding Exercise 49: Abstract Class
 
 -
 
-## Section 12: Java Collections 6hr 36min
+## Section 12: Java Collections
+
+## 6hr 36min
+
+### [Back to Top](##table-of-contents)
 
 ### 153. Collections Overview
 
@@ -1699,13 +1864,21 @@ Coding Exercise 52: Sets
 
 -
 
-## Section 13: JavaFX 10hr 6min (Learn based on need)
+## Section 13: JavaFX
+
+## 10hr 6min (Learn based on need)
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 180 - 225.
 
 -
 
-## Section 14: Basic Input & Output including java.util 8hr 22min
+## Section 14: Basic Input & Output including java.util
+
+## 8hr 22min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 226. Exceptions
 
@@ -1859,7 +2032,11 @@ Coding Exercise 52: Sets
 
 -
 
-## Section 15: Concurrency in Java 5hr 26min
+## Section 15: Concurrency in Java
+
+## 5hr 26min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 264. Concurrency and Threads Introduction
 
@@ -1977,7 +2154,11 @@ Coding Exercise 52: Sets
 
 -
 
-## Section 16 Lambda Expressions 3hr 11min
+## Section 16 Lambda Expressions
+
+## 3hr 11min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 293. Lamda Expressions Introduction
 
@@ -2031,7 +2212,11 @@ Coding Exercise 52: Sets
 
 -
 
-## Section 17: Regular Expressions 1hr 54min
+## Section 17: Regular Expressions
+
+## 1hr 54min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 306. Regular Expressions Introduction
 
@@ -2065,7 +2250,11 @@ Coding Exercise 52: Sets
 
 -
 
-## Section 18: Debugging and Unit Testing 2hr 46min
+## Section 18: Debugging and Unit Testing
+
+## 2hr 46min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 314. Introduction to Debugging
 
@@ -2111,7 +2300,11 @@ Coding Exercise 52: Sets
 
 -
 
-## Section 19: Databases 7hr 40min
+## Section 19: Databases
+
+##7hr 40min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 325. Section Introduction
 
@@ -2121,13 +2314,21 @@ Coding Exercise 52: Sets
 
 -
 
-## Section 20: Java Networking Programming 2hr 24min
+## Section 20: Java Networking Programming
+
+## 2hr 24min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 3
 
 -
 
-## Section 21: Java 9 Module System 14min
+## Section 21: Java 9 Module System
+
+## 14min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 369. Introduction to Modules
 
@@ -2141,7 +2342,11 @@ Coding Exercise 52: Sets
 
 -
 
-## Section 22: Migrating Java Projects to Java 9 1hr 5min
+## Section 22: Migrating Java Projects to Java 9
+
+## 1hr 5min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 372. Project Setup and Test
 
@@ -2171,19 +2376,31 @@ Coding Exercise 52: Sets
 
 -
 
-## Section 23: Course Remaster in Progress 2hr 26min
+## Section 23: Course Remaster in Progress
+
+## 2hr 26min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 3
 
 -
 
-## Section 24: Archived Videos 31min
+## Section 24: Archived Videos
+
+## 31min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 3
 
 -
 
-## Section 25: Extra Information - Source code, and other stuff 19min
+## Section 25: Extra Information - Source code, and other stuff
+
+## 19min
+
+### [Back to Table of Contents](##table-of-contents)
 
 ### 400. Source code for all Programs
 
