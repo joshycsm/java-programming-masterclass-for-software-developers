@@ -1995,79 +1995,115 @@ Coding Exercise 52: Sets
 
 -
 
-### 297.
+### 297. Functional Interfaces & Predicates
 
 -
 
-### 29
+### 298. More on Predicates & Suppliers
 
 -
 
-### 29
+### 299. Functions
 
 -
 
-### 30
+### 300. Chaining java.util.functions Functions
 
 -
 
-### 30
+### 301. Streams
 
 -
 
-### 30
+### 302. Streams - Intermediate and Terminal Operations
 
 -
 
-### 30
+### 303. Streams - Flatmap & Lambda Best Practices
 
 -
 
-### 30
+### 304. Lamda Challenge Part 1
 
 -
 
-### 30
+### 305. Lamda Challenge Part 2
 
 -
 
 ## Section 17: Regular Expressions 1hr 54min
 
-### 30
+### 306. Regular Expressions Introduction
 
 -
 
-### 30
+### 307. Character classes and Boundary Matchers
 
 -
 
-### 30
+### 308. Quantifiers and the Pattern and Matcher classes
 
 -
 
-### 30
+### 309. Matcher find and Group Methods
 
 -
 
-### 31
+### 310. And, Or & Not
 
 -
 
-### 31
+### 311. Regular Expressions Challenge Part 1
 
 -
 
-### 31
+### 312. Regular Expressions Challenge Part 2
 
 -
 
-### 31
+### 313. Regular Expressions Challenge Part 3
 
 -
 
 ## Section 18: Debugging and Unit Testing 2hr 46min
 
 ### 314. Introduction to Debugging
+
+-
+
+### 315. More on Debugging
+
+-
+
+### 316. Field Watch Points
+
+-
+
+### 317. Advanced Debugging
+
+-
+
+### 318. Introduction to Unit Testing with JUnit
+
+-
+
+### 319. Asserts in Junit
+
+-
+
+### 320. More Asserts and Exception Handling
+
+-
+
+### 321. Parameterized Testing
+
+-
+
+### 322. JUnit Challenge #1 and #2
+
+-
+
+### 323. JUnit Challenge #3 and #7
 
 -
 
@@ -2093,13 +2129,45 @@ Coding Exercise 52: Sets
 
 ## Section 21: Java 9 Module System 14min
 
-### 3
+### 369. Introduction to Modules
+
+-
+
+### 370. Module Declartions and Statements
+
+-
+
+### 371. Module Types
 
 -
 
 ## Section 22: Migrating Java Projects to Java 9 1hr 5min
 
-### 3
+### 372. Project Setup and Test
+
+-
+
+### 373. Structuring the new project
+
+-
+
+### 374. Creating the first module (Common)
+
+-
+
+### 375. Creating the Module Descriptor file
+
+-
+
+### 376. Creating the 2nd module (Database)
+
+-
+
+### 377. Challenge - Create the final module (UI)
+
+-
+
+### 378. Transitive Dependencies
 
 -
 
